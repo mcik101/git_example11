@@ -1,1 +1,63 @@
 
+<<--------git command  --->>>
+
+
+ 		repo
+ 		  | all the screens hot so the project 
+ 		  |              |   commit 
+workign ddirecotry -->> staggind indes
+  < snap>    -----......>>>>>>>>>> 
+
+
+  inilitiaze git repo
+ 
+ <---creating git repo -->
+  1. git init 
+
+ <---clonign git project -->
+  2. git clone "url"
+
+  3 status ->> give status
+
+  <----making change in file -->
+
+  1.  git add file name to add # sent staagging stage
+  2. git commit  -m "message "# sent to repo
+  3. git status
+  4. git ignore # if we won to inore
+
+  <----seeing commits---> 
+  1.  git log
+  2.  git log --oneline
+  3.  git log --stat 3 show all commit 
+  4.  git log -p # show all inn detail
+  5.  git  show hash of change 
+  6.  dif # give difference before commeting give thhe diffrence 
+
+
+
+  <----- creating version of the software --->
+    - tag X.Y.Z
+  x = major version, user cannot go back 
+  y = the monor version, use to addign functionlaity while mantaing backword cmpartability 
+  z = the patch version , used for making small bugfixes 
+
+  how to create verison 
+   git tag -a  v1.0.0  -- adding the tage
+
+   git tag -d v1.0.0 -- deleting the tage
+
+   <--- working in non-linear flow -->
+    -- branching individual and team
+
+    1. git branch name of branch 
+    	git bracnh login
+
+    2. switch between branches
+      git checkout branch to swithc 
+
+      <---- merging --->
+
+      1. fast ordward merging 
+      2. regular merging
+      
